@@ -1,0 +1,25 @@
+/* Ocultar el watermark y el logo de Chainlit */
+a img[alt="watermark"] {
+    display: none;
+  }
+  
+  a[href*='https://github.com/Chainlit/chainlit'] {
+    visibility: hidden;
+  }
+  
+  [data-testid="chainlit-logo"] {
+    display: none !important;
+  }
+  
+  /* Ajustar el tamaño del logo basado en el src de la imagen */
+  img[src*="C:\Users\samuc\OneDrive\Escritorio\Chatbot\testenv\Lib\site-packages\chainlit\frontend\dist\assets\logo_dark-2a3cf740.svg"] {
+    width: 180px;  /* Ajusta este valor según sea necesario */
+    height: auto;  /* Mantener la proporción */
+  }
+  
+  img[src*="C:\Users\samuc\OneDrive\Escritorio\Chatbot\testenv\Lib\site-packages\chainlit\frontend\dist\assets\logo_light-b078e7bc.svg"] {
+    width: 180px;  /* Ajusta este valor según sea necesario */
+    height: auto;  /* Mantener la proporción */
+  }
+  
+  
